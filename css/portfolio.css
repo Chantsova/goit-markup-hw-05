@@ -65,9 +65,14 @@
 
 .projects-link:hover .projects-card-overlay,
 .projects-link:focus .projects-card-overlay {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.projects-link:hover,
+.projects-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
-    transform: translateX(0);
 }
 
 .text-card {
@@ -104,6 +109,7 @@
     height: 100%;
     padding: 63px 24px;
     background-color: var(--background-overlay);
+    opacity: 0;
 
     transform: translateY(
         101%
