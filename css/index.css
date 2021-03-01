@@ -91,7 +91,7 @@
 }
 
 .close-modal-icon {
-    color: var(--element-black);
+    fill: var(--element-black);
 }
 
 .close-button {
